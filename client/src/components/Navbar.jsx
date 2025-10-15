@@ -7,6 +7,7 @@ export default function Navbar() {
       <h1 className="text-xl font-semibold">NBCFDC Credit Scoring Dashboard</h1>
       <div className="space-x-6">
         <Link to="/">Home</Link>
+        <Link to="/home">Models</Link>
         <Link to="/dashboard">Dashboard</Link>
         <Link to="/scores">View Scores</Link>
         <Link to="/direct-lending">Direct Lending</Link>
