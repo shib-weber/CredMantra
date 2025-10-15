@@ -1,12 +1,12 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import Dashboard from "./components/Dashboard";
-import ViewScores from "./pages/ViewScores";
-import DirectLending from "./pages/DirectLending";
 import Navbar from "./components/Navbar";
+import Home from "./Pages/Home";
+import ViewScores from "./Pages/ViewScores";
+import DirectLending from "./Pages/DirectLending";
+import Dashboard from "./components/Dashboard";
 
-export default function App() {
+function App() {
   return (
     <Router>
       <div className="min-h-screen bg-gray-50">
@@ -21,3 +21,5 @@ export default function App() {
     </Router>
   );
 }
+
+export default App;
