@@ -1,0 +1,32 @@
+@import "tailwindcss";
+:root {
+  --c-bg-primary: #FCFBF8;         
+  --c-bg-secondary: #E9F0EB;        
+  --c-action-primary: #1F675A;       
+  --c-action-primary-hover: #3d9b83; 
+  --c-highlight: #FFC759;            
+  --c-text-primary: #333333;         
+  --c-text-secondary: #6B7280;       
+  --c-border: #DCDCDC;               
+  --c-success: #34D399;              
+  --c-error: #F87171;                
+}
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(-10%) rotate(0deg);
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(110vh) rotate(360deg);
+    opacity: 0;
+  }
+}
+
